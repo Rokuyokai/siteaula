@@ -1,8 +1,64 @@
 <html>
     <head>   
-        <title> pipipipopopo</title>     
+        <title> Aula HTML</title>     
     </head>
         <body>
-            <i>seqsu hihih</i>
+            <h1>Conceitos Basicos</h1>
+            <hr>
+
+            <H2 id="indice">Índice</H2>
+            <ul>
+                <li><a href="#basic">Estrutura Básica</a></li>
+                <li><a href="#tags">Elementos e Tags</a></li>
+                <li><a href="#atrib">Atributos</a></li>
+                <li><a href="#hyperl">Links</a></li>
+            </ul>
+            <hr>
+            <h2 id="basic">Estrutura Básica</h2><small><a href="#indice">voltar</a></small>            
+            <p>A estrutura do HTML é formada por um conjunto de elementos que se conectam formando a página.</p>
+            <p>Os elementos HTML são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.</p>
+            <p>Dentre desses elementos, podemos destacar três tags que compõem os blocos estruturais do documento: HTML; Head e Body </p> 
+            <h3>HTML</h3>  
+            <p>Representa a raiz do documento, serve com um container que engloba todos os outros elementos HTML.</p>
+            <h3>Head</h3>
+            <p>Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados.</p>
+            <h3>Body</h3>
+            <p>Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento.</p>
+            
+            <h2 id="tags">Elementos e Tags</h2><small><a href="#indice">voltar</a></small> 
+            <p> Os elementos são compostos por três partes:</p>
+            <ul>
+                <li><strong>Tag de abertura</strong></li>
+                <p>Consiste no nome do elemento envolvido em parênteses angulares de abertura (&lt) e fechamento(&gt). Indica onde o elemento começa, ou onde seu efeito se inicia. Ex.: &lth1&gt.</p>
+                <li><strong>Tag de fechamento</strong></li>
+                <p>Isso é a mesma coisa que a tag de abertura, exceto que inclui uma barra antes do nome do elemento. Isso demonstra onde o elemento acaba. Ex.: &lt/h1&gt.</p>
+                <li><strong>Conteúdo</strong></li>
+                <p>Esse é o conteúdo do elemento, podendo ser texto, imagem, scripts ou demais funções. Se encontra entre as tags de abertura e fechamento.</p>
+            </ul>
+            <p>As tags mais comuns são:</p>
+            <ul>
+                <li><strong>H1-6</strong></li>
+                <p>As tags H são para inserir títulos no documento, sendo que o número indica o tamanho, onde 1 é o maior e 6 o menor.</p>
+                <li><strong>P</strong></li>
+                <p>A tag &ltP&gt vem de parágrafo, para inserçao de texto simples.</p>
+                <li><strong>UL</strong></li>
+                <p>Significa Lista não Ordenada, onde cada item da lista é precedido por um símbolo.</p>
+                <li><strong>OL</strong></li>
+                <p>Lista Ordenada, onde cada item é precido por um número indicando sua ordem na lista.</p>
+                <li><strong>LI</strong></li>
+                <p>Nas listas, seja ordenada ou não ordenada, os itens precisam ser indicados por essa tag para que sejam de fato listados.</p>
+                <p>Usar outra tag, como &lth1&gt ou &ltp1&gt, não incluirá elementos na lista.</p>
+                <li><strong>Strong, I e Mark</strong></li>
+                <p>Servem, respectivivamente, para deixar em <strong>negrito</strong>, <i>itálico</i> e <mark>destacar</mark> uma parte do texto.</p>
+            </ul>
+            <p> Alguns elementos/tags náo precisam da tag de fechamento, como exemplo a tag HR que insere um traçado na página. Um elemento também pode conter atributos, que serão explicados a seguir.</p>
+            
+            <h2 id="atrib">Atributos</h2><small><a href="#indice">voltar</a></small> 
+            <p>Atributos contém informação extra sobre o elemento que você não quer que apareça no conteúdo real e são inseridos dentro da tag de abertura.</p>
+            <p>Como exemplo podemos citar o atributo ID, que define um identificador exclusivo para o elemento, podendo ser utilizado para navegar por âncoras, scripts ou para estilizar usando CSS.</p>
+
+            <h2 id="hyperl">Links</h2><small><a href="#indice">voltar</a></small> 
+            <p>No HTML usamos a tag  &lta&gt (âncora) para criar um vínculo (link) com outro documento. Uma âncora pode apontar para qualquer recurso na Web: uma página em HTML, uma imagem, um arquivo de som, um filme, etc.</p>
+            <p>A tag &lta&gt é usada para criar uma âncora de onde vincular, o atributo href é usado para onde endereçar o documento, e as palavras entre as tags de abertura e fechamento da âncora serão exibidas como um hiperlink.</p>
         </body>
-    </html>
+</html>
